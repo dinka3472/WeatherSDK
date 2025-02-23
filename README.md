@@ -44,7 +44,7 @@ mvn install:install-file -Dfile="target/WeatherSDK-1.0-SNAPSHOT.jar" -DgroupId="
 To work with the SDK, you need to get an api key. You can get your api key here https://openweathermap.org/appid.  This is the minimum required configuration for the operation of the SDK.
 If you only set the api key, the following configurations will be applied by default:
 - polling mode = false;
-- polling interval minutes = 5;
+- polling interval minutes = 10;
 - cache validity minutes = 10;
 - cache size = 10;
 
